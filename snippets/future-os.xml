@@ -84,7 +84,7 @@
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="future-os" />
-  <project path="system/core" name="system_core" remote="future-os" />
+  <project path="system/core" name="system_core" remote="pixel" />
   <project path="system/extras" name="system_extras" remote="future-os" />
   <project path="system/netd" name="system_netd" remote="future-os" />
   <project path="system/sepolicy" name="system_sepolicy" remote="future-os" />
