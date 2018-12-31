@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="pie"/>
+  
   <remote name="future-os"
           fetch="https://github.com/future-os"
           revision="pie"/>
@@ -76,7 +80,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="future-os" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="future-os" clone-depth="1" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pixel" clone-depth="1" />
 
   <!-- System Repos -->
   <project path="system/bt" name="system_bt" remote="future-os" />
