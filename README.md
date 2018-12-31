@@ -22,6 +22,7 @@ $ . build/envsetup.sh
 ```
 
 ```bash
+# Choose a target
 $ lunch aosp_$device-userdebug
 ```
 
