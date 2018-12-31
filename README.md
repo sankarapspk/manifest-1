@@ -17,13 +17,15 @@ repo sync -c -jx --force-sync --no-clone-bundle --no-tags
 ### Build ###
 
 ```bash
-
 # Set up environment
 $ . build/envsetup.sh
 ```
-# Choose a target
+
+```bash
 $ lunch aosp_$device-userdebug
 ```
+
+```bash
 # Build the code
 $ mka bacon -jX
 ```
