@@ -3,11 +3,11 @@
 
   <remote name="pixel"
           fetch="https://github.com/PixelExperience"
-          revision="pie"/>
+          revision="pie" />
   
   <remote name="future-os"
           fetch="https://github.com/future-os"
-          revision="pie"/>
+          revision="pie" />
 
   <!-- CodeAurora additions -->
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="future-os" />
