@@ -49,7 +49,7 @@
   <project path="build/kati" name="build_kati" remote="future-os" />
   <project path="bootable/recovery" name="bootable_recovery" remote="future-os" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="future-os" />
-  <project path="vendor/future-os" name="vendor_future-os" remote="future-os" />
+  <project path="vendor/aosp" name="vendor_future" remote="future-os" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="future-os" />
 
   <!-- Hardware repos -->
